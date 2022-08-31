@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+// import motion from framer motion
 import { motion } from "framer-motion";
 
 function ListForm(props) {
@@ -23,6 +24,7 @@ function ListForm(props) {
         setInput("");
     };
 
+    // Add motion to form tag
     return (
         <motion.form
             className="list-form"
